@@ -1,0 +1,28 @@
+{
+    "connectplace" :{
+      "users" : {
+        "1" : {
+          "email" : "rogercmr@gmail.com",
+          "localizacao" : {
+            "cidade" : "porto aelgre",
+            "uf" : "Rio Grande do Sul",
+            "cep" : "93250002"
+          },
+          "name" : "Roger Camara"
+        }
+      },
+      "matriculas" : {
+        "1" : {
+          "-Jl9cQXgm_6YkdC1xgCK" : {
+            "name" : "Nome do Curso",
+            "etapa" : "Etapa do Curso",
+            "curso" : {
+              "id" : "1",
+              "status" : "Haryana",
+              "ultimoAcesso" : "122001"
+            }
+          }
+        }
+      }
+    }
+  }

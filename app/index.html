@@ -1,0 +1,209 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ConnectPlace</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/modernizr.js -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="">
+        </a>
+        <div>
+        <button class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav bemvindo">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bem vindo, <span class="show-user-name"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Seu perifl</a></li>
+                <li><a class="dropdown-item" href="#">Matriculas</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div id="login-btn"><a href="#" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a></div>
+
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="content">
+      <!-- User Achievements -->
+      <div class="container-fluid feature bemvindohero">
+        <div class="container">
+          <div class="pg-titulo">
+            <h2>Olá, seja bem vindo ao ConnectPlace</h2><br>
+            <p class="lead">
+              A Connect Place é uma plataforma de projeto social que visa ajudar jovens na busca por oportunidades, utilizando recursos do setor privado que, por sua vez, desejam gerar valor à marca e obter benefícios fiscais.            
+            </p>
+            <blockquote class="blockquote">
+              <p>Acreditamos que inovação está na diversidade e equidade como direcionadores de uma sociedade mais justa, só é bom para nós, se for bom para todos. Temos o compromisso de criar ou conectar as capacitações das empresas que desejam preparar jovens das diferentes etnias/raças, gênero e classe ao mercado de trabalho. </p>
+            </blockquote>
+
+          </div>
+          <div class="content">
+
+          </div>
+                
+        </div>
+      </div>
+
+      <div class="user-achievements">
+        <!-- Container -->
+        <div class="container">
+
+          <div class="pg-titulo">
+            <h4> Suas Conquistas</h4><br>
+          </div>
+
+          <div class="container px-5 conquistas">
+            <div class="row gx-5">
+              <div class="col-sm p-3">
+                <div class="certificados certfic" data-donutty data-min=0 data-max=10 data-value=1 data-color="#202125"></div>
+                  <span>Certificados</span>
+              </div>
+              <div class="col-sm p-3">
+                <div class="certificados cursos" data-donutty data-min=0 data-max=10 data-value=1 data-color="#445452"></div>
+                  <span> Cursos completos</span>
+              </div>
+              <div class="col-sm p-3">
+                <div class="certificados horas" data-donutty data-min=0 data-max=10 data-value=1></div>
+                  <span>Horas / Aula</span>
+              </div>
+              <div class="col-sm p-3">
+                <div class="certificados avalia" data-donutty data-min=0 data-max=10 data-value=1></div>
+                  <span>Avaliações</span>
+              </div>
+              <div class="col-sm p-3">
+                <div class="certificados lives" data-donutty data-min=0 data-max=10 data-value=1></div>
+                  <span>Eventos ao vivo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid feature recomendacoes">
+        <div class="container">
+          <div class="pg-titulo">
+            <h4> Recomendações para você</h4><br>
+          </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4 list-content cat01" id="cardContainer"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid feature ">
+        <div class="container">
+          <div class="pg-titulo">
+            <h4>Cursos sobre Tecnologia</h4><br>
+          </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4 list-content cat01" id="categoria01"></div>
+        </div>
+      </div>
+      
+        
+      <br><br><br>
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close align-right" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row mx-1">
+                      <div class="row">
+                          <div class="">
+                              <div id="signInForm">
+                                  <h2 class="h2 text-center text-dark mb-3">
+                                    <img src="images/logo_on.svg" alt="">
+                                  </h2>
+                                  <div class="form-group">
+                                      <label for="usuario-login-mail">Endereço de E-mail<span class="text-danger ml-1">*</span></label>
+                                      <input type="email" class="form-control" id="usuario-login-mail" onblur="verificaLoginMail()"placeholder="seu@email.com">
+                                      <small id="usuario-login-mail-error" class="classe-erro form-text text-danger">Verifique as informações de login.</small>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="usuario-login-pass">Password<span class="text-danger ml-1">*</span></label>
+                                      <input type="password" class="form-control" id="usuario-login-pass" onblur="verificaLoginPass()" placeholder="password">
+                                      <small id="usuario-login-pass-error" class="classe-erro form-text text-danger">Confira sua senha.</small>
+                                  </div>
+                                  <button type="button" class="btn btn-outline-primary text-uppercase mb-3" onclick="signIn()">Entrar</button>
+                                  <p>Ainda não possui uma senha? : <a href="registro.html"><strong class="text-primary text-uppercase showSignUpForm">Registre-se agora!</strong></a></p>
+                              </div>
+                          </div>
+                      </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Firebase -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <!-- build:js scripts/vendor.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/donutty/dist/donutty.min.js"></script>
+    <!-- endbuild -->
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+    <!-- end firebase -->
+    <script>
+      // Api configurada somente para este dominio
+    var config = {
+          apiKey: "AIzaSyB4gHbc2zgkEu2EmqkB6b22siinqJddq50",
+          authDomain: "conectplaceccr.firebaseapp.com",
+          databaseURL: "https://conectplaceccr-default-rtdb.firebaseio.com",
+          projectId: "conectplaceccr",
+          storageBucket: "conectplaceccr.appspot.com",
+          messagingSenderId: "14612854088",
+          appId: "1:14612854088:web:34883c7c49999cee5baf7d",
+          measurementId: "G-7P4NQHE5GF"
+      };
+      firebase.initializeApp(config);
+      firebase.analytics();
+    </script>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

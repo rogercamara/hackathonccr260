@@ -1,0 +1,9 @@
+{
+  "firebase": "hackaccr-d9a8c",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
